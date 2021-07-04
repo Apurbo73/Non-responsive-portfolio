@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+    font-family: 'poppins', sans-serif;
+}
+
+.flexible
+{
+display: flex;
+margin-bottom: 100px;
+}
+.half
+{
+    width: 50%;
+    padding: 2%;
+    
+}
+.half img
+{
+    width: 100%;
+   
+}
+.button
+{
+    text-decoration: none;
+    background-image: linear-gradient(orange,
+    tomato);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font: bold;
+    cursor: pointer;
+    font-weight: bold;
+    padding-top: px;
+    
+    
+}
+
+.top
+{
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.dream
+{
+   background-image: url(images/dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+}
+.dream p
+{
+    padding-left: 0px;
+    padding-right: 90px;
+}
+
+.yes
+{
+    box-shadow: 10px 10px 20px gray;
+    width: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    height: 240px;
+   
+ 
+}
+.experience
+{
+   background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;  
+   background-position:left ;
+}
+
+#baby
+{  
+   border-left: 7px solid;
+   border-image: linear-gradient(orange,yellow);
+   border-image-slice: 1;
+   
+}
+#yobaby
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(green,yellow);
+    border-image-slice: 1;
+    
+}
